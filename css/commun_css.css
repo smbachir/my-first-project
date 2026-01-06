@@ -1,0 +1,16 @@
+*:before,   /*  tous les pseudo-éléments avant */
+*:after {   /* tous les pseudo-éléments après */
+      -moz-box-sizing: border-box;      /* Vieux Firefox */
+      -webkit-box-sizing: border-box;   /* Vieux Webkit */
+      box-sizing: border-box;           /* A présent width = border + padding + le contenu  */
+}
+
+body {
+    font-size: 18px;
+}
+
+
+
+
+
+
